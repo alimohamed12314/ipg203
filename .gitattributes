@@ -1,0 +1,12 @@
+# Text files are stored with LF in the repository and checked out with the line endings
+# .editorconfig asks for, on every machine.
+* text=auto
+
+*.cs      text eol=crlf
+*.csproj  text eol=crlf
+*.sln     text eol=crlf
+*.md      text eol=crlf
+*.json    text eol=crlf
+
+*.png     binary
+*.pdf     binary
